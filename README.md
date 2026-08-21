@@ -73,7 +73,7 @@ A short explanation and demo of the project is available here:
 
 
 
-|  |  |
+| <img width="1915" height="1010" alt="Screenshot 2026-08-21 125301" src="https://github.com/user-attachments/assets/1cde50c9-48f0-4813-b85e-14667976bad5" /> |  <img width="1919" height="1012" alt="Screenshot 2026-08-21 125406" src="https://github.com/user-attachments/assets/7be6ab45-9443-4535-b398-a4d5180fac39" /> |
 |---|---|
 |  |  |
 
