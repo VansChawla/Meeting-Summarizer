@@ -46,6 +46,7 @@ Teams record meetings all the time, but rarely go back and write proper minutes 
 pip install streamlit speech_recognition pydub python-dotenv google-genai
 
 # Make sure ffmpeg is installed on your system (required by pydub)
+#ffmpeg model is greater than 25MB. So I couldn't add these model files in the repo.
 
 # Add your API key to a .env file
 echo "GEMINI_API_KEY=your_api_key_here" > .env
@@ -59,8 +60,6 @@ streamlit run app.py
 A short explanation and demo of the project is available here:
 
 **[Watch the video](https://drive.google.com/file/d/1xx2V1KqspEclZEwQpNxxMHkrJega7st1/view?usp=sharing)**
-
-*(Make sure sharing is set to "Anyone with the link can view.")*
 
 ## 📸 Screenshots
 <img width="1915" height="1010" alt="Screenshot 2026-08-21 125301" src="https://github.com/user-attachments/assets/1cde50c9-48f0-4813-b85e-14667976bad5" />
