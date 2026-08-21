@@ -2,11 +2,11 @@
 
 An AI-powered tool that converts raw meeting audio into a clean, structured summary — automatically. Upload a recording, and get back a well-organized breakdown of what was discussed, decided, and assigned, along with the full transcript.
 
-## 📌 Overview
+## Overview
 
 Teams record meetings all the time, but rarely go back and write proper minutes — important decisions and action items often get lost. This project solves that by combining speech-to-text transcription with an LLM-based summarization pipeline, producing meeting notes that are ready to share in seconds.
 
-## ✨ Features
+## Features
 
 - **Audio Upload** — supports WAV, MP3, M4A, WEBM, OGG, and FLAC formats
 - **Automatic Transcription** — converts speech to text using speech recognition
@@ -21,7 +21,7 @@ Teams record meetings all the time, but rarely go back and write proper minutes 
 - **Downloadable Output** — export both the summary and the full transcript as text files
 - **Clean, Modern UI** — built with Streamlit, styled with the Poppins font
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -31,7 +31,7 @@ Teams record meetings all the time, but rarely go back and write proper minutes 
 | Summarization | Gemini LLM API |
 | Config | `python-dotenv` |
 
-## 🚀 How It Works
+## How It Works
 
 1. Upload a meeting audio file.
 2. The audio is normalized (mono, 16kHz) and transcribed to text.
@@ -39,7 +39,7 @@ Teams record meetings all the time, but rarely go back and write proper minutes 
 4. The app displays the generated summary first, followed by the full transcript.
 5. Download either output as a `.txt` file.
 
-## ⚙️ Setup
+## Setup
 
 ```bash
 # Install dependencies
@@ -55,13 +55,13 @@ echo "GEMINI_API_KEY=your_api_key_here" > .env
 streamlit run app.py
 ```
 
-## 🎥 Video Walkthrough
+## Video Walkthrough
 
 A short explanation and demo of the project is available here:
 
 **[Watch the video](https://drive.google.com/file/d/1xx2V1KqspEclZEwQpNxxMHkrJega7st1/view?usp=sharing)**
 
-## 📸 Screenshots
+## Screenshots
 <img width="1915" height="1010" alt="Screenshot 2026-08-21 125301" src="https://github.com/user-attachments/assets/1cde50c9-48f0-4813-b85e-14667976bad5" />
 <img width="1919" height="1012" alt="Screenshot 2026-08-21 125406" src="https://github.com/user-attachments/assets/7be6ab45-9443-4535-b398-a4d5180fac39" />
 <img width="1914" height="1016" alt="Screenshot 2026-08-21 125419" src="https://github.com/user-attachments/assets/7d37a6aa-48d6-4e8b-8a77-5a7a41a2e3d0" />
@@ -77,6 +77,6 @@ A short explanation and demo of the project is available here:
 |---|---|
 |  |  |
 
-## 📄 License
+## License
 
 This project is for educational/academic purposes.
