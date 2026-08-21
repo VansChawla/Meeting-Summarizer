@@ -76,7 +76,6 @@ def transcriber(uploaded_file):
 
         audio = AS.from_file(input_path)
 
-        # Convert audio to suitable format
         audio = (
             audio
             .set_frame_rate(16000)
@@ -84,22 +83,18 @@ def transcriber(uploaded_file):
             .set_sample_width(2)
         )
 
-        # Export as WAV
         audio.export(
             file_path,
             format="wav"
         )
 
-        # Remove temporary input file
         os.remove(input_path)
 
-        # Display audio
         st.audio(
             audio_bytes,
             format=uploaded_file.type
         )
 
-        # Speech recognizer
         recognizer = sr.Recognizer()
 
         with sr.AudioFile(file_path) as source:
@@ -150,10 +145,6 @@ def transcriber(uploaded_file):
         if file_path and os.path.exists(file_path):
             os.remove(file_path)
 
-
-# ---------------------------------------------------------
-# LLM SUMMARY
-# ---------------------------------------------------------
 
 def llm_summary(text):
 
@@ -207,10 +198,6 @@ Meeting Transcript:
         return f"LLM Error: {str(e)}"
 
 
-# ---------------------------------------------------------
-# STREAMLIT UI
-# ---------------------------------------------------------
-
 st.markdown(
     "<div class='main-title'>🎙️ Meeting Summarizer</div>",
     unsafe_allow_html=True
@@ -227,16 +214,8 @@ st.markdown(
 )
 
 
-# ---------------------------------------------------------
-# COLUMNS
-# ---------------------------------------------------------
-
 c1, c2 = st.columns(2)
 
-
-# ---------------------------------------------------------
-# AUDIO UPLOAD
-# ---------------------------------------------------------
 
 with c1:
 
@@ -255,10 +234,6 @@ with c1:
     )
 
 
-# ---------------------------------------------------------
-# PROCESS BUTTON
-# ---------------------------------------------------------
-
 with c2:
 
     st.subheader("Process Meeting")
@@ -270,10 +245,6 @@ with c2:
     )
 
 
-# ---------------------------------------------------------
-# MAIN PROCESSING
-# ---------------------------------------------------------
-
 if process_button:
 
     if uploaded_file is None:
@@ -284,17 +255,9 @@ if process_button:
 
     else:
 
-        # ---------------------------------------------
-        # SPEECH TO TEXT
-        # ---------------------------------------------
-
         text = transcriber(uploaded_file)
 
         if text != "error" and text.strip():
-
-            # -----------------------------------------
-            # LLM SUMMARY
-            # -----------------------------------------
 
             with st.spinner(
                 "Generating meeting summary..."
@@ -302,19 +265,11 @@ if process_button:
 
                 summary = llm_summary(text)
 
-            # -----------------------------------------
-            # DISPLAY SUMMARY
-            # -----------------------------------------
-
             st.divider()
 
             st.header("Meeting Summary")
 
             st.markdown(summary)
-
-            # -----------------------------------------
-            # DOWNLOAD SUMMARY
-            # -----------------------------------------
 
             st.download_button(
                 label="Download Summary",
@@ -322,10 +277,6 @@ if process_button:
                 file_name="meeting_summary.txt",
                 mime="text/plain"
             )
-
-            # -----------------------------------------
-            # DISPLAY TRANSCRIBED TEXT
-            # -----------------------------------------
 
             st.divider()
 
@@ -336,10 +287,6 @@ if process_button:
                 value=text,
                 height=300
             )
-
-            # -----------------------------------------
-            # DOWNLOAD TRANSCRIPT
-            # -----------------------------------------
 
             st.download_button(
                 label="Download Transcript",
