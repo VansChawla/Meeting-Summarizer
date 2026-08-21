@@ -73,11 +73,12 @@ A short explanation and demo of the project is available here:
 
 
 
-| <img width="1915" height="1010" alt="Screenshot 2026-08-21 125301" src="https://github.com/user-attachments/assets/1cde50c9-48f0-4813-b85e-14667976bad5" /> |  <img width="1919" height="1012" alt="Screenshot 2026-08-21 125406" src="https://github.com/user-attachments/assets/7be6ab45-9443-4535-b398-a4d5180fac39" /> |
+| <img width="1915" height="1010" alt="Screenshot 2026-08-21 125301" src="https://github.com/user-attachments/assets/1cde50c9-48f0-4813-b85e-14667976bad5" /> |  <img width="1918" height="1011" alt="Screenshot 2026-08-21 125325" src="https://github.com/user-attachments/assets/402c0a71-6cef-42aa-bd92-73f86d07a7a0" /> |
 |---|---|
-| <img width="1914" height="1016" alt="Screenshot 2026-08-21 125419" src="https://github.com/user-attachments/assets/7d37a6aa-48d6-4e8b-8a77-5a7a41a2e3d0" /> |  <img width="1916" height="1004" alt="Screenshot 2026-08-21 125431" src="https://github.com/user-attachments/assets/95a07963-0fcc-492f-9078-aee74d0e0789" /> |
+| <img width="1919" height="1012" alt="Screenshot 2026-08-21 125406" src="https://github.com/user-attachments/assets/7be6ab45-9443-4535-b398-a4d5180fac39" /> |  <img width="1914" height="1016" alt="Screenshot 2026-08-21 125419" src="https://github.com/user-attachments/assets/7d37a6aa-48d6-4e8b-8a77-5a7a41a2e3d0" /> |
 |---|---|
-<img width="1904" height="1009" alt="Screenshot 2026-08-21 125439" src="https://github.com/user-attachments/assets/cc3f83d2-cf1a-478c-85a5-2704c5f50eb8" />
+| <img width="1916" height="1004" alt="Screenshot 2026-08-21 125431" src="https://github.com/user-attachments/assets/95a07963-0fcc-492f-9078-aee74d0e0789" /> | <img width="1904" height="1009" alt="Screenshot 2026-08-21 125439" src="https://github.com/user-attachments/assets/cc3f83d2-cf1a-478c-85a5-2704c5f50eb8" /> |
+
 
 
 ## License
