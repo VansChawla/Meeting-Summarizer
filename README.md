@@ -77,7 +77,7 @@ A short explanation and demo of the project is available here:
 |---|---|
 | <img width="1914" height="1016" alt="Screenshot 2026-08-21 125419" src="https://github.com/user-attachments/assets/7d37a6aa-48d6-4e8b-8a77-5a7a41a2e3d0" /> |  <img width="1916" height="1004" alt="Screenshot 2026-08-21 125431" src="https://github.com/user-attachments/assets/95a07963-0fcc-492f-9078-aee74d0e0789" /> |
 |---|---|
-| <img width="1904" height="1009" alt="Screenshot 2026-08-21 125439" src="https://github.com/user-attachments/assets/cc3f83d2-cf1a-478c-85a5-2704c5f50eb8" /> |
+<img width="1904" height="1009" alt="Screenshot 2026-08-21 125439" src="https://github.com/user-attachments/assets/cc3f83d2-cf1a-478c-85a5-2704c5f50eb8" />
 
 
 ## License
